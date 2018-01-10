@@ -10,7 +10,7 @@
     "viewIssues": {
       "type": "action",
       "selector": "a",
-      "control": "action.link",
+      "control": "property.innerHTML",
       "selectContains": "ViewIssues"
     }
   },
