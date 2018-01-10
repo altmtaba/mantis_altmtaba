@@ -12,7 +12,7 @@
             "update": {
               "type": "none"
             },
-            "selector": "tbody tr td.left",
+            "selector": "td.left",
             "control": "property.innerHTML"
           },
           "action": {
