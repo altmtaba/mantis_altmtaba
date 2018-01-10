@@ -7,8 +7,8 @@
       "control": "exists"
     },
     "viewIssues": {
-      "type": "string",
-      "control": "property.innerHTML",
+      "type": "action",
+      "control": "action.link",
       "selector": "td.menu a[href=\"/mantisbt/view_all_bug_page.php\"]"
     }
   },
