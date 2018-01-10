@@ -3,8 +3,9 @@
   "properties": {
     "isMyView": {
       "type": "identifier",
-      "selector": "td",
-      "control": "property.innerText"
+      "selector": "a.subtle",
+      "control": "property.innerText",
+      "selectContains": "Monitored by Me"
     }
   },
   "connect": []
