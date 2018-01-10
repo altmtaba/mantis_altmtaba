@@ -2,68 +2,38 @@
   "listItems": [
     {
       "string": "Cardiology",
-      "string": "Sample summary",
+      "string2": "Sample summary",
       "icon": "fa-tag"
     },
     {
       "string": "Search by Part Number",
-      "string": "Sample summary",
+      "string2": "Sample summary",
       "icon": "fa-search"
     },
     {
       "string": "Browse Products",
-      "string": "Sample summary",
+      "string2": "Sample summary",
       "icon": "fa-cogs"
     },
     {
       "string": "Direct Order Entry",
-      "string": "Sample summary",
+      "string2": "Sample summary",
       "icon": "fa-file-text"
     },
     {
       "string": "Import Order",
-      "string": "Sample summary",
+      "string2": "Sample summary",
       "icon": "fa-download"
     },
     {
       "string": "View Order History",
-      "string": "Sample summary",
+      "string2": "Sample summary",
       "icon": "fa-history"
     },
     {
       "string": "Quick Quote Entry",
-      "string": "Sample summary",
+      "string2": "Sample summary",
       "icon": "fa-calculator"
-    },
-    {
-      "string": "SP/SD Request",
-      "string": "Sample summary",
-      "icon": "fa-money"
-    },
-    {
-      "string": "SD Claim",
-      "string": "Sample summary",
-      "icon": "fa-bullhorn"
-    },
-    {
-      "string": "RMA",
-      "string": "Sample summary",
-      "icon": "fa-archive"
-    },
-    {
-      "string": "Stock Rotation",
-      "string": "Sample summary",
-      "icon": "fa-repeat"
-    },
-    {
-      "string": "New Part Number",
-      "string": "Sample summary",
-      "icon": "fa-cog"
-    },
-    {
-      "string": "View/Print Statement",
-      "string": "Sample summary",
-      "icon": "fa-print"
     }
   ]
 }
