@@ -8,9 +8,9 @@
     },
     "viewIssues": {
       "type": "string",
-      "selector": "a",
       "control": "property.innerHTML",
-      "selectContains": "/mantisbt/view_all_bug_page.php"
+      "selector": "a",
+      "selectIndex": 3
     }
   },
   "connect": []
