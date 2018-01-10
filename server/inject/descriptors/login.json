@@ -33,7 +33,7 @@
       "update": {
         "type": "none"
       },
-      "control": "property.innerHTML",
+      "control": "property.innerText",
       "selector": "div",
       "selectIndex": 1
     },
