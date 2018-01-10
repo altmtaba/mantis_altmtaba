@@ -6,6 +6,12 @@
       "selector": "a.subtle",
       "control": "exists",
       "selectContains": "Monitored by Me"
+    },
+    "viewIssues": {
+      "type": "action",
+      "selector": "a",
+      "control": "action.link",
+      "selectContains": "ViewIssues"
     }
   },
   "connect": []
