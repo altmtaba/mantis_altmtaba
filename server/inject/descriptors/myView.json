@@ -4,7 +4,8 @@
     "isMyView": {
       "type": "identifier",
       "selector": "a.subtle",
-      "control": "exists"
+      "control": "exists",
+      "selectContains": "Monitored by Me"
     },
     "viewIssues": {
       "type": "action",
