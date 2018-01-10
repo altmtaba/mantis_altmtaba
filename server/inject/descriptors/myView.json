@@ -10,7 +10,6 @@
       "type": "string",
       "control": "property.innerHTML",
       "selector": "a",
-      "selectIndex": 3,
       "selectContains": "href=\"/mantisbt/view_all_bug_page.php\""
     }
   },
