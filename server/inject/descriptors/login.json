@@ -61,7 +61,7 @@
     },
     "isMyView": {
       "type": "identifier",
-      "selector": "a.subtitle",
+      "selector": ".subtitle",
       "control": "property.innerHTML"
     }
   },
