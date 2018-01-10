@@ -9,8 +9,8 @@
     "viewIssues": {
       "type": "string",
       "control": "property.innerHTML",
-      "selector": "a",
-      "selectContains": "view_all_bug_page"
+      "selector": "td.menu a",
+      "selectIndex": 3
     }
   },
   "connect": []
