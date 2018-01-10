@@ -8,7 +8,7 @@
       "selectContains": "Monitored by Me"
     },
     "viewIssues": {
-      "type": "action",
+      "type": "string",
       "selector": "a",
       "control": "property.innerHTML",
       "selectContains": "ViewIssues"
