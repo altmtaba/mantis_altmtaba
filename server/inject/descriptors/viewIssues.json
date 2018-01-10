@@ -4,7 +4,7 @@
     "isViewIssues": {
       "type": "identifier",
       "selector": ".floatleft",
-      "control": "property.innerHTML",
+      "control": "exists",
       "selectContains": "Viewing Issues"
     }
   },
