@@ -10,7 +10,7 @@
       "type": "string",
       "control": "property.innerHTML",
       "selector": "a",
-      "selectContains": "href=\"/mantisbt/view_all_bug_page.php\""
+      "selectContains": "view_all_bug_page"
     }
   },
   "connect": []
