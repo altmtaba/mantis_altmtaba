@@ -9,8 +9,7 @@
     "viewIssues": {
       "type": "string",
       "control": "property.innerHTML",
-      "selector": "td.menu a",
-      "selectIndex": 3
+      "selector": "td.menu a[href=\"/mantisbt/view_all_bug_page.php\"]"
     }
   },
   "connect": []
