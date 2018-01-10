@@ -33,9 +33,8 @@
       "update": {
         "type": "none"
       },
-      "control": "property.innerText",
-      "selector": "div font[color=red]",
-      "selectIndex": 1
+      "control": "exists",
+      "selector": "div font[color=red]"
     },
     "submit": {
       "type": "action",
