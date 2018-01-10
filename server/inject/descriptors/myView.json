@@ -4,12 +4,11 @@
     "isMyView": {
       "type": "identifier",
       "selector": "a.subtle",
-      "control": "exists",
-      "selectContains": "Monitored by Me"
+      "control": "exists"
     },
     "viewIssues": {
       "type": "string",
-      "selector": "a",
+      "selector": "a [href=/mantisbt/view_all_bug_page.php]",
       "control": "property.innerHTML",
       "selectContains": "ViewIssues"
     }
