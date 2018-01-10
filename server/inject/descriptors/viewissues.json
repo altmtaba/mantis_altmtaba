@@ -19,7 +19,9 @@
             "type": "action"
           },
           "icon": {
-            "type": "string"
+            "type": "string",
+            "selector": "tbody tr td a",
+            "control": "property.innerHTML"
           }
         }
       },
