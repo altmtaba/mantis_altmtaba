@@ -4,7 +4,7 @@
     "isMyView": {
       "type": "identifier",
       "selector": "a.subtle",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "Monitored by Me"
     }
   },
