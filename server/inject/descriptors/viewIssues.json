@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isViewIssues": {
+      "type": "identifier",
+      "selector": ".floatleft",
+      "control": "property.innerHTML",
+      "selectContains": "Viewing Issues"
+    }
+  },
+  "connect": []
+}
