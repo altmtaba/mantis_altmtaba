@@ -11,9 +11,7 @@
           "submit"
         ]
       },
-      "selector": "input",
-      "selectContains": "username",
-      "control": "text"
+      "selector": "input"
     },
     "password": {
       "type": "string",
