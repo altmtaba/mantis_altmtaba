@@ -52,7 +52,7 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "input.button[value]",
+      "selector": "input[type='submit']",
       "control": "exists",
       "selectContains": "Login"
     }
