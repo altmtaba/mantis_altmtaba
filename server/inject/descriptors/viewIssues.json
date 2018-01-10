@@ -1,11 +1,29 @@
 {
   "type": "object",
+  "comment": "ListView",
   "properties": {
-    "isViewIssues": {
-      "type": "identifier",
-      "selector": ".floatleft",
-      "control": "exists",
-      "selectContains": "Viewing Issues"
+    "listItems": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "string": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "action": {
+            "type": "action"
+          },
+          "icon": {
+            "type": "string"
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      }
     }
   },
   "connect": []
