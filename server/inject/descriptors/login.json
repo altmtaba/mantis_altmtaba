@@ -60,8 +60,8 @@
       "control": "property.innerText"
     },
     "isMyView": {
-      "type": "string",
-      "selector": "head title",
+      "type": "identifier",
+      "selector": "title",
       "control": "property.innerHTML"
     }
   },
@@ -74,5 +74,6 @@
         "login"
       ]
     }
-  ]
+  ],
+  "selector": "head title"
 }
