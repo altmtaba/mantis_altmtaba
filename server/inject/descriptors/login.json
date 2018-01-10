@@ -11,7 +11,7 @@
           "submit"
         ]
       },
-      "selector": "input"
+      "selector": ".input"
     },
     "password": {
       "type": "string",
