@@ -47,7 +47,7 @@
           "type": "string"
         }
       },
-      "selector": "button",
+      "selector": ".button",
       "selectContains": "Login",
       "control": "action.button"
     }
