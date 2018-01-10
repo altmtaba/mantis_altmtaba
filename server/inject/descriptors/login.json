@@ -62,8 +62,7 @@
     "isMyView": {
       "type": "identifier",
       "selector": "a.subtitle",
-      "control": "property.innerHTML",
-      "selectContains": "Monitored by Me"
+      "control": "property.innerHTML"
     }
   },
   "connect": [
