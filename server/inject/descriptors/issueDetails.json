@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "isIssueDetails": {
+      "type": "string",
+      "selector": ".form-title",
+      "control": "property.innerText",
+      "selectContains": "View Issue Details"
+    }
+  },
+  "connect": []
+}
