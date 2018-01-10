@@ -53,6 +53,11 @@
       "type": "identifier",
       "selector": "input[value=Login]",
       "control": "exists"
+    },
+    "isViewIssues": {
+      "type": "identifier",
+      "selector": "p",
+      "control": "property.innerText"
     }
   },
   "connect": [],
