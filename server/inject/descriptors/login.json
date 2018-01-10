@@ -33,8 +33,9 @@
       "update": {
         "type": "none"
       },
-      "control": "property.innerText",
-      "selector": "font #text"
+      "control": "property.innerHTML",
+      "selector": "div",
+      "selectIndex": 1
     },
     "submit": {
       "type": "action",
