@@ -33,8 +33,7 @@
       "update": {
         "type": "none"
       },
-      "selector": "font color=\"red\"",
-      "selectIndex": 1,
+      "selector": "font",
       "control": "text"
     },
     "submit": {
