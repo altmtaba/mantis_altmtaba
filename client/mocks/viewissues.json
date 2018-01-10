@@ -1,39 +1,52 @@
 {
   "listItems": [
     {
-      "string": "Cardiology",
-      "string2": "Sample summary",
+      "category": "Cardiology",
+      "summary": "Sample summary",
+      "severity": "trivial",
       "icon": "fa-tag"
     },
     {
-      "string": "Search by Part Number",
-      "string2": "Sample summary",
-      "icon": "fa-search"
+      "category": "Cardiology",
+      "summary": "Sample summary",
+      "severity": "trivial",
+      "icon": "fa-tag"
+    },
+      {
+      "category": "Cardiology",
+      "summary": "Sample summary",
+      "severity": "trivial",
+      "icon": "fa-tag"
     },
     {
-      "string": "Browse Products",
-      "string2": "Sample summary",
-      "icon": "fa-cogs"
+      "category": "Cardiology",
+      "summary": "Sample summary",
+      "severity": "trivial",
+      "icon": "fa-tag"
+    },
+      {
+      "category": "Cardiology",
+      "summary": "Sample summary",
+      "severity": "trivial",
+      "icon": "fa-tag"
     },
     {
-      "string": "Direct Order Entry",
-      "string2": "Sample summary",
-      "icon": "fa-file-text"
+      "category": "Cardiology",
+      "summary": "Sample summary",
+      "severity": "trivial",
+      "icon": "fa-tag"
+    },
+      {
+      "category": "Cardiology",
+      "summary": "Sample summary",
+      "severity": "trivial",
+      "icon": "fa-tag"
     },
     {
-      "string": "Import Order",
-      "string2": "Sample summary",
-      "icon": "fa-download"
-    },
-    {
-      "string": "View Order History",
-      "string2": "Sample summary",
-      "icon": "fa-history"
-    },
-    {
-      "string": "Quick Quote Entry",
-      "string2": "Sample summary",
-      "icon": "fa-calculator"
+      "category": "Cardiology",
+      "summary": "Sample summary",
+      "severity": "trivial",
+      "icon": "fa-tag"
     }
   ]
 }
