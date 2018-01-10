@@ -8,8 +8,8 @@
     },
     "viewIssues": {
       "type": "string",
-      "selector": "a [href=/mantisbt/view_all_bug_page.php]",
-      "control": "property.innerHTML"
+      "selector": "a[href=/mantisbt/view_all_bug_page.php]",
+      "control": "exists"
     }
   },
   "connect": []
