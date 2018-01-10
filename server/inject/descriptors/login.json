@@ -53,6 +53,16 @@
       "type": "identifier",
       "selector": "input[value=Login]",
       "control": "exists"
+    },
+    "isViewIssues": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "property.innerText"
+    },
+    "isMyView": {
+      "type": "string",
+      "selector": "head title",
+      "control": "property.innerHTML"
     }
   },
   "connect": [
