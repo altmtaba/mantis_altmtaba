@@ -20,7 +20,7 @@
           },
           "icon": {
             "type": "string",
-            "selector": "tbody tr td a",
+            "selector": "tr td a",
             "control": "property.innerHTML"
           }
         }
