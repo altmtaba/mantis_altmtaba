@@ -55,6 +55,5 @@
       "control": "exists"
     }
   },
-  "connect": [],
-  "selector": "head title"
+  "connect": []
 }
