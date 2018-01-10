@@ -24,14 +24,18 @@
         ]
       },
       "selector": "input",
-      "selectIndex": 1
+      "selectIndex": 1,
+      "control": "text"
     },
     "errorMessage": {
       "type": "string",
       "label": "errorMessage",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "font color=\"red\"",
+      "selectIndex": 1,
+      "control": "text"
     },
     "submit": {
       "type": "action",
@@ -44,7 +48,8 @@
         }
       },
       "selector": "button",
-      "selectContains": "Login"
+      "selectContains": "Login",
+      "control": "action.button"
     }
   },
   "connect": []
