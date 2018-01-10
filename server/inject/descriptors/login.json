@@ -52,7 +52,7 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "input[value=Cogin]",
+      "selector": "input[value=Login]",
       "control": "exists"
     }
   },
