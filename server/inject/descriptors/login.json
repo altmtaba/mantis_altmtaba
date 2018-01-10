@@ -60,15 +60,6 @@
       "control": "property.innerText"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isLogin"
-      ],
-      "screens": [
-        "login"
-      ]
-    }
-  ],
+  "connect": [],
   "selector": "head title"
 }
