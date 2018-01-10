@@ -22,7 +22,9 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "input",
+      "selectIndex": 1
     },
     "errorMessage": {
       "type": "string",
@@ -40,7 +42,9 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": "button",
+      "selectContains": "Login"
     }
   },
   "connect": []
