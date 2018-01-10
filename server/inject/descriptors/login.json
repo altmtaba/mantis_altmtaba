@@ -11,7 +11,8 @@
           "submit"
         ]
       },
-      "selector": ".input"
+      "selector": "input",
+      "control": "property.innerText"
     },
     "password": {
       "type": "string",
