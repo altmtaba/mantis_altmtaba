@@ -58,11 +58,6 @@
       "type": "identifier",
       "selector": ".form-title",
       "control": "property.innerText"
-    },
-    "isMyView": {
-      "type": "identifier",
-      "selector": ".subtitle",
-      "control": "property.innerHTML"
     }
   },
   "connect": [
