@@ -10,12 +10,6 @@
       "sourceScreenId": "app.blank"
     },
     {
-      "id": "menu2",
-      "name": "menu2",
-      "sourceAppId": "_blank",
-      "sourceScreenId": "app.menu"
-    },
-    {
       "id": "multiselect",
       "name": "multiselect",
       "sourceAppId": "_blank",
