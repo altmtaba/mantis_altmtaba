@@ -51,16 +51,19 @@
     "severity": {
       "type": "string",
       "selector": "tr.row-2 td",
-      "selectIndex": 4,
+      "selectIndex": 6,
       "control": "property.innerText"
     },
     "reproducibility": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-2 td",
+      "selectIndex": 8,
+      "control": "property.innerText"
     },
     "status": {
       "type": "string",
-      "selector": "tr.row-1 td",
-      "selectIndex": 3
+      "selector": "tr.row-1 td[bgcolor=\"#c2dfff\"]",
+      "control": "property.innerText"
     },
     "resolution": {
       "type": "string"
