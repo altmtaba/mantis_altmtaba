@@ -12,7 +12,7 @@
             "update": {
               "type": "none"
             },
-            "selector": "td.left",
+            "selector": "#text",
             "control": "property.innerHTML"
           },
           "action": {
@@ -28,7 +28,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": ".buglist tbody"
+      "selectorAll": ".buglist tbody tr td"
     }
   },
   "connect": []
