@@ -28,7 +28,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "#buglist tr[bgcolor=\"#c2dfff\"][bgcolor=\"fcbdbd\"]"
+      "selectorAll": "#buglist tr[bgcolor=\"#c2dfff\"]"
     }
   },
   "connect": []
