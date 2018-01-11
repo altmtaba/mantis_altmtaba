@@ -13,5 +13,12 @@
       "selector": "td.menu a[href=\"/mantisbt/view_all_bug_page.php\"]"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isMyView"
+      ],
+      "action": "viewIssues"
+    }
+  ]
 }
