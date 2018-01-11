@@ -72,7 +72,7 @@
     "isissuedetails": {
       "type": "identifier",
       "selector": ".form-title",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "View Issue Details"
     }
   },
