@@ -27,12 +27,13 @@
             "type": "string",
             "selector": "td",
             "control": "property.innerText",
-            "selectIndex": 10
+            "selectIndex": 6
           },
           "text2": {
             "type": "string",
-            "selector": "tr",
-            "control": "property.innerText"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 10
           },
           "text3": {
             "type": "string",
