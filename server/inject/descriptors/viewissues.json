@@ -39,9 +39,9 @@
           },
           "text3": {
             "type": "string",
-            "selector": "td a",
+            "selector": "td",
             "control": "action.link",
-            "selectIndex": 1
+            "selectIndex": 7
           }
         }
       },
