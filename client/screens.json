@@ -47,8 +47,7 @@
       "id": "menu",
       "name": "menu",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "description": "Menu control"
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
