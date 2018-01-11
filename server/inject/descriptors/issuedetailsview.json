@@ -68,6 +68,12 @@
     "gotohome": {
       "type": "action",
       "selectContains": "My View"
+    },
+    "isissuedetails": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "property.innerText",
+      "selectContains": "View Issue Details"
     }
   },
   "connect": []
