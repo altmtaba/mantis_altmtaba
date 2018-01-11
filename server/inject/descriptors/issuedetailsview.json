@@ -39,7 +39,7 @@
     "assignedTo": {
       "type": "string",
       "selector": "tr.row-1 td",
-      "selectIndex": 1,
+      "selectIndex": 7,
       "control": "property.innerText"
     },
     "priority": {
