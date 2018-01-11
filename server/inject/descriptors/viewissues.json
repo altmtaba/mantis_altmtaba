@@ -52,7 +52,7 @@
     },
     "isViewIssues": {
       "type": "string",
-      "selector": "#buglist.form_title",
+      "selector": "#buglist td.form-title",
       "control": "property.innerHTML"
     }
   },
