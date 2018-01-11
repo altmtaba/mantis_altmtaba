@@ -34,7 +34,7 @@
         "type": "none"
       },
       "control": "property.innerText",
-      "selector": "div font[color=red]"
+      "selector": "div > font[color=red]"
     },
     "submit": {
       "type": "action",
