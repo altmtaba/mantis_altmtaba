@@ -52,7 +52,9 @@
       "type": "string"
     },
     "summary": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-1 td[colspan=\"5\"]",
+      "control": "property.innerText"
     },
     "description": {
       "type": "string",
