@@ -66,10 +66,15 @@
       "control": "property.innerText"
     },
     "resolution": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-1 td",
+      "selectIndex": 12,
+      "control": "property.innerText"
     },
     "platform": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-2 tr",
+      "selectIndex": 12
     },
     "OS": {
       "type": "string"
