@@ -22,6 +22,22 @@
             "type": "string",
             "selector": "tr td a",
             "control": "property.innerHTML"
+          },
+          "text1": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 10
+          },
+          "text2": {
+            "type": "string",
+            "selector": "tr",
+            "control": "property.innerText"
+          },
+          "text3": {
+            "type": "string",
+            "selector": "tr",
+            "control": "property.innerText"
           }
         }
       },
