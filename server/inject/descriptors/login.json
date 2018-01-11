@@ -11,7 +11,7 @@
           "submit"
         ]
       },
-      "selector": "input",
+      "selector": "input[name=\"username\"]",
       "control": "text"
     },
     "password": {
