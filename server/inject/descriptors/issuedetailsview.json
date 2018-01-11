@@ -74,7 +74,7 @@
     "platform": {
       "type": "string",
       "selector": "tr.row-2 tr",
-      "selectIndex": 12,
+      "selectIndex": 9,
       "control": "property.innerText"
     },
     "OS": {
