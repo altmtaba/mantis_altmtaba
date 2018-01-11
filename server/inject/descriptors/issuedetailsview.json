@@ -127,9 +127,9 @@
       "selectContains": "View Issue Details"
     },
     "logout": {
-      "type": "string",
+      "type": "action",
       "selector": "td.menu a[href=\"/mantisbt/logout_page.php\"]",
-      "control": "property.innerText"
+      "control": "action.link"
     }
   },
   "connect": [
