@@ -33,7 +33,7 @@
           "text4": {
             "type": "string",
             "selector": "td",
-            "control": "action.link",
+            "control": "property.innerText",
             "selectIndex": 9
           }
         }
