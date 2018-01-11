@@ -28,7 +28,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": ".buglist"
+      "selectorAll": "#buglist tr"
     }
   },
   "connect": []
