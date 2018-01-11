@@ -54,6 +54,11 @@
       "selector": "#buglist td.form-title span.floatleft",
       "control": "exists",
       "selectContains": "Viewing Issues"
+    },
+    "logout": {
+      "type": "action",
+      "selector": "td.menu a[href=\"/mantisbt/logout_page.php\"]",
+      "control": "action.link"
     }
   },
   "connect": [
