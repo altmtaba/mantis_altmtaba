@@ -16,8 +16,8 @@
             "control": "property.innerHTML"
           },
           "action": {
-            "type": "string",
-            "control": "property.innerHTML",
+            "type": "action",
+            "control": "action.link",
             "selector": "td a[href^=\"/mantisbt/view.php?id=\"]"
           },
           "icon": {
