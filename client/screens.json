@@ -48,13 +48,6 @@
       "name": "menu",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
-    },
-    {
-      "id": "listviewcool",
-      "name": "ListView-Cool",
-      "sourceScreenId": "app.listview.listviewcool",
-      "sourceAppId": "universaltemplates",
-      "model": "listviewcool"
     }
   ],
   "sourceAppId": "_blank",
