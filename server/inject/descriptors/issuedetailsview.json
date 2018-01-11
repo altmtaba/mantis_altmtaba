@@ -74,14 +74,20 @@
     "platform": {
       "type": "string",
       "selector": "tr.row-2 td",
-      "selectIndex": 9,
+      "selectIndex": 10,
       "control": "property.innerText"
     },
     "OS": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-2 td",
+      "selectIndex": 12,
+      "control": "property.innerText"
     },
     "osversion": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-2 td",
+      "selectIndex": 14,
+      "control": "property.innerText"
     },
     "summary": {
       "type": "string",
