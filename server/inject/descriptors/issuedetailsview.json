@@ -13,7 +13,10 @@
       "control": "property.innerText"
     },
     "category": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-1 td",
+      "selectIndex": 2,
+      "control": "property.innerText"
     },
     "dateSubmitted": {
       "type": "string"
