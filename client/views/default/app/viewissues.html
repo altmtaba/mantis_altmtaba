@@ -12,13 +12,15 @@
     <ion-content data-comp-id="ionic-content.1">
         <div class="list" data-comp-id="ionic-list.1" ng-repeat="item in data.listItems"
             type="">
-            <div class="row" data-comp-id="row.1">
+            <div class="row" data-comp-id="row.1"
+                ng-click="app.action('viewissues', 'listItems[item].action', this)">
                 <div class="col" data-comp-id="column.1">
                     <div data-comp-id="text.1" ng-bind="item.text2" style="font-weight: bold;">Some text</div>
                 </div>
                 <i class="icon ion-chevron-right" data-comp-id="icon.1"></i>
             </div>
-            <div class="row" data-comp-id="row.2">
+            <div class="row" data-comp-id="row.2"
+                ng-click="app.action('viewissues', 'listItems[item].action', this)">
                 <div class="col text-left" data-comp-id="column.2" style="max-width: 43%;">
                     <div data-comp-id="text.2" ng-bind="item.text1" style="font-size: 15px;">Some text</div>
                 </div>
