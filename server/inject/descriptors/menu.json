@@ -3,7 +3,7 @@
   "properties": {
     "logout": {
       "type": "string",
-      "selector": "a[href=\"/mantisbt/logout.page.php\"]",
+      "selector": "a[href=\"/mantisbt/logout_page.php\"]",
       "control": "property.innerText"
     }
   },
