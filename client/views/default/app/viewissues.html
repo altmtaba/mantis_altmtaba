@@ -10,9 +10,7 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <div class="light-bg item-divider" data-comp-id="div.1"
-            ng-repeat="item in data.issueList"
-            style="border-bottom: 1px solid rgb(238, 238, 238);">
+        <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.listItems">
             <div class="item item-icon-right" data-comp-id="item.1"
                 ng-click="app.action('listview', 'data.listItems[item].action', this)"
                 ng-repeat="item in data.listItems"
@@ -26,6 +24,6 @@
                 <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.1"
                     style="font-size: 20px;"></i>
             </div>
-        </div>
+        </ion-list>
     </ion-content>
 </ion-view>
