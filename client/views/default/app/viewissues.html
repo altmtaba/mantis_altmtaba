@@ -11,11 +11,13 @@
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
         <ion-list data-comp-id="ionic-list.1">
-            <div class="item item-icon-right item-divider" data-comp-id="item.1"
-                ng-click="app.action('listview', 'data.listItems[item].action', this)"
-                style="border-top: 1px solid rgba(255, 255, 255, 0);">
-                <i class="icon ion-ios-arrow-right positive" data-comp-id="icon.1"
-                    style="font-size: 20px;"></i>
+            <div class="row" data-comp-id="row.1" ng-repeat="item in data.listItems">
+                <div class="col" data-comp-id="column.1">
+                    <div data-comp-id="text.1" ng-bind="item.text1">Some text</div>
+                </div>
+                <div class="col" data-comp-id="column.2">
+                    <div data-comp-id="text.2" ng-bind="item.text2">Some text</div>
+                </div>
             </div>
         </ion-list>
     </ion-content>

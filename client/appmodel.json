@@ -59,10 +59,16 @@
               "type": "string"
             },
             "text1": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "text2": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "text3": {
               "type": "string"
