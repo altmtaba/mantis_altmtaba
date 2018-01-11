@@ -51,7 +51,7 @@
       "selectorAll": "#buglist tr[bgcolor]"
     },
     "isViewIssues": {
-      "type": "string",
+      "type": "identifier",
       "selector": "#buglist td.form-title span.floatleft",
       "control": "exists",
       "selectContains": "Viewing Issues"
