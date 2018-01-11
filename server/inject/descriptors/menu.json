@@ -4,7 +4,7 @@
     "logout": {
       "type": "string",
       "selector": "a[href=\"/mantisbt/logout.page.php\"]",
-      "control": "property.innerHTML"
+      "control": "property.innerText"
     }
   },
   "connect": []
