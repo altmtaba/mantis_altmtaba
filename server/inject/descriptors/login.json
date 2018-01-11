@@ -62,7 +62,8 @@
       ],
       "screens": [
         "login"
-      ]
+      ],
+      "model": "login"
     }
   ]
 }
