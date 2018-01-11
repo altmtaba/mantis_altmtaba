@@ -10,9 +10,24 @@
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
-        <ion-list data-comp-id="ionic-list.1">
+        <ion-list data-comp-id="ionic-list.1" ng-repeat="item in data.listItems"
+            type=" list-inset">
             <div class="row" data-comp-id="row.1">
-                <div class="col" data-comp-id="column.1"></div>
+                <div class="col" data-comp-id="column.1">
+                    <div data-comp-id="text.1" ng-bind="item.text1">Some text</div>
+                </div>
+                <i class="icon ion-information-circled" data-comp-id="icon.1"></i>
+            </div>
+            <div class="row" data-comp-id="row.2">
+                <div class="col" data-comp-id="column.4" style="max-width: 45%;">
+                    <div data-comp-id="text.2" ng-bind="item.text1">Some text</div>
+                </div>
+                <div class="col" data-comp-id="column.2">
+                    <div data-comp-id="text.3" ng-bind="item.text3">Some text</div>
+                </div>
+                <div class="col" data-comp-id="column.3" style="max-width: 45%;">
+                    <div data-comp-id="text.4" ng-bind="item.text4">Some text</div>
+                </div>
             </div>
         </ion-list>
     </ion-content>
