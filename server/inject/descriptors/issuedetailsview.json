@@ -125,6 +125,11 @@
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "View Issue Details"
+    },
+    "logout": {
+      "type": "string",
+      "selector": "td.menu a[href=\"/mantisbt/logout_page.php\"]",
+      "control": "property.innerText"
     }
   },
   "connect": [
