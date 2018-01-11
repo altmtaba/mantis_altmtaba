@@ -37,8 +37,9 @@
           },
           "text3": {
             "type": "string",
-            "selector": "tr",
-            "control": "property.innerText"
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 7
           }
         }
       },
