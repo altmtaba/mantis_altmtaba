@@ -116,7 +116,7 @@
       "selectContains": "Report Issue"
     },
     "gotohome": {
-      "type": "string",
+      "type": "action",
       "selector": "td.menu a[href=\"/mantisbt/view_all_bug_page.php\"]",
       "control": "action.link"
     },
