@@ -7,14 +7,16 @@
         "type": "string",
         "label": "username",
         "update": {
-          "type": "none"
+          "type": "change",
+          "dynamic": false
         }
       },
       "password": {
         "type": "string",
         "label": "password",
         "update": {
-          "type": "none"
+          "type": "change",
+          "dynamic": false
         }
       },
       "errorMessage": {
