@@ -76,5 +76,14 @@
       "selectContains": "View Issue Details"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "isissuedetails"
+      ],
+      "screens": [
+        "issuedetailsview"
+      ]
+    }
+  ]
 }
