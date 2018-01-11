@@ -116,8 +116,9 @@
       "selectContains": "Report Issue"
     },
     "gotohome": {
-      "type": "action",
-      "selectContains": "My View"
+      "type": "string",
+      "selector": "td.menu a[href=\"/mantisbt/view_all_bug_page.php\"]",
+      "control": "property.innerHTML"
     },
     "isissuedetails": {
       "type": "identifier",
