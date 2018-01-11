@@ -34,6 +34,13 @@
       "sourceScreenId": "app.listview.listviewcool",
       "sourceAppId": "universaltemplates",
       "model": "viewissues"
+    },
+    {
+      "id": "issuedetailsview",
+      "name": "IssueDetailsView",
+      "sourceScreenId": "app.viewdetails",
+      "sourceAppId": "MantisClassic",
+      "model": "issuedetailsview"
     }
   ],
   "sourceAppId": "_blank",
