@@ -49,7 +49,10 @@
       "control": "property.innerText"
     },
     "severity": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-1 td",
+      "selectIndex": 4,
+      "control": "property.innerText"
     },
     "reproducibility": {
       "type": "string"
