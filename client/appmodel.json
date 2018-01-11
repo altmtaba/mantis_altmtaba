@@ -56,7 +56,10 @@
               "type": "action"
             },
             "icon": {
-              "type": "string"
+              "type": "string",
+              "update": {
+                "type": "none"
+              }
             },
             "text1": {
               "type": "string",

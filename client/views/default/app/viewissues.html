@@ -16,16 +16,27 @@
                 <div class="col" data-comp-id="column.1">
                     <div data-comp-id="text.1" ng-bind="item.text2">Some text</div>
                 </div>
-                <i class="icon ion-information-circled" data-comp-id="icon.1"></i>
+                <label class="item" custom-photo="control" data-comp-id="customPhoto.1"
+                    ng-class="{'item-input item-button-right': style === 'control'}">
+                    <span class="input-label" ng-if="style === 'control'">Custom Photo</span>
+                    <button class="button button-icon" ng-if="style === 'control'">
+                        <i class="icon positive-icon ion-camera"></i>
+                    </button>
+                    <input disabled="" ng-if="style === 'control'" ng-model="item.icon" type="text">
+                    <input disabled="" ng-if="style === 'control'" type="text">
+                    <button class="button button-block button-positive nomargin"
+                        ng-if="style === 'button'">Custom Photo</button>
+                    <input class="data-container" type="hidden">
+                </label>
             </div>
             <div class="row" data-comp-id="row.2">
-                <div class="col" data-comp-id="column.4" style="max-width: 45%;">
+                <div class="col" data-comp-id="column.2" style="max-width: 45%;">
                     <div data-comp-id="text.2" ng-bind="item.text1">Some text</div>
                 </div>
-                <div class="col" data-comp-id="column.2">
+                <div class="col" data-comp-id="column.3">
                     <div data-comp-id="text.3" ng-bind="item.text3">Some text</div>
                 </div>
-                <div class="col" data-comp-id="column.3" style="max-width: 45%;">
+                <div class="col" data-comp-id="column.4" style="max-width: 45%;">
                     <div data-comp-id="text.4" ng-bind="item.text4">Some text</div>
                 </div>
             </div>
