@@ -7,16 +7,20 @@
         "type": "string",
         "label": "username",
         "update": {
-          "type": "change",
-          "dynamic": false
+          "type": "action",
+          "action": [
+            "submit"
+          ]
         }
       },
       "password": {
         "type": "string",
         "label": "password",
         "update": {
-          "type": "change",
-          "dynamic": false
+          "type": "action",
+          "action": [
+            "submit"
+          ]
         }
       },
       "errorMessage": {
