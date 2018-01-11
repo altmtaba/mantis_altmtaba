@@ -31,13 +31,21 @@
       "control": "property.innerText"
     },
     "reporter": {
-      "type": "string"
+      "type": "string",
+      "selector": "td.row-2 td",
+      "selectIndex": 1,
+      "control": "property.innerText"
     },
     "assignedTo": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-1 td",
+      "selectIndex": 1,
+      "control": "property.innerText"
     },
     "priority": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-2 td",
+      "selectIndex": 4
     },
     "severity": {
       "type": "string"
