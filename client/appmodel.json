@@ -52,16 +52,22 @@
         "items": {
           "type": "object",
           "properties": {
-            "string": {
-              "type": "string",
-              "update": {
-                "type": "none"
-              }
-            },
             "action": {
               "type": "action"
             },
             "icon": {
+              "type": "string"
+            },
+            "text1": {
+              "type": "string"
+            },
+            "text2": {
+              "type": "string"
+            },
+            "text3": {
+              "type": "string"
+            },
+            "text4": {
               "type": "string"
             }
           }
