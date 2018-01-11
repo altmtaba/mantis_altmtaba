@@ -50,7 +50,7 @@
     },
     "severity": {
       "type": "string",
-      "selector": "tr.row-1 td",
+      "selector": "tr.row-2 td",
       "selectIndex": 4,
       "control": "property.innerText"
     },
