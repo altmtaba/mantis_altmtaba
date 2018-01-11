@@ -41,6 +41,12 @@
             "selector": "td",
             "control": "property.innerHTML",
             "selectIndex": 2
+          },
+          "assigned": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 8
           }
         }
       },
