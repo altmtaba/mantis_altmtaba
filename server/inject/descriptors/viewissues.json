@@ -29,6 +29,12 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 7
+          },
+          "text4": {
+            "type": "action",
+            "selector": "td",
+            "control": "action.link",
+            "selectIndex": 9
           }
         }
       },
