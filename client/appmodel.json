@@ -7,20 +7,14 @@
         "type": "string",
         "label": "username",
         "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
+          "type": "none"
         }
       },
       "password": {
         "type": "string",
         "label": "password",
         "update": {
-          "type": "action",
-          "action": [
-            "submit"
-          ]
+          "type": "none"
         }
       },
       "errorMessage": {
