@@ -18,7 +18,7 @@
           "action": {
             "type": "string",
             "control": "property.innerHTML",
-            "selector": "td a"
+            "selector": "td a[href^=\"/mantisbt/view.php?id=\"]"
           },
           "icon": {
             "type": "string",
