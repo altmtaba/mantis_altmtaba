@@ -171,13 +171,5 @@
         "type": "action"
       }
     }
-  },
-  "menu": {
-    "type": "object",
-    "properties": {
-      "logout": {
-        "type": "string"
-      }
-    }
   }
 }

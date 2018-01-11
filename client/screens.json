@@ -13,8 +13,7 @@
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
-      "sourceScreenId": "app.menu",
-      "model": "menu"
+      "sourceScreenId": "app.menu"
     },
     {
       "id": "multiselect",
