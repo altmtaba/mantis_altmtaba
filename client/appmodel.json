@@ -140,5 +140,36 @@
         "selectContains": "My View"
       }
     }
+  },
+  "home": {
+    "type": "object",
+    "properties": {
+      "issueList": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "category": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string"
+            },
+            "viewdetails": {
+              "type": "action"
+            }
+          }
+        }
+      },
+      "reportIssue": {
+        "type": "action"
+      }
+    }
   }
 }

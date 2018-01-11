@@ -41,6 +41,13 @@
       "sourceScreenId": "app.viewdetails",
       "sourceAppId": "MantisClassic",
       "model": "issuedetailsview"
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "sourceScreenId": "app.home",
+      "sourceAppId": "MantisClassic",
+      "model": "home"
     }
   ],
   "sourceAppId": "_blank",
