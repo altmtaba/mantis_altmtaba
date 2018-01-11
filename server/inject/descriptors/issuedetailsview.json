@@ -3,7 +3,7 @@
   "properties": {
     "id": {
       "type": "string",
-      "selector": "td.row-1",
+      "selector": "tr.row-1 td",
       "control": "property.innerText"
     },
     "project": {
