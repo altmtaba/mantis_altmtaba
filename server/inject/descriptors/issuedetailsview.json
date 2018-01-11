@@ -64,7 +64,7 @@
     "tags": {
       "type": "string",
       "selector": "tr.row-2 td[colspan=\"5\"]",
-      "selectIndex": 2,
+      "selectIndex": 1,
       "control": "property.innerText"
     },
     "attachTags": {
