@@ -11,20 +11,20 @@
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
         <div class="list" data-comp-id="ionic-list.1" ng-repeat="item in data.listItems"
-            type=" list-inset">
+            type="">
             <div class="row" data-comp-id="row.1">
                 <div class="col" data-comp-id="column.1">
-                    <div data-comp-id="text.1" ng-bind="item.text2">Some text</div>
+                    <div data-comp-id="text.1" ng-bind="item.text2" style="font-weight: bold;">Some text</div>
                 </div>
             </div>
             <div class="row" data-comp-id="row.2">
-                <div class="col" data-comp-id="column.2" style="max-width: 45%;">
-                    <div data-comp-id="text.2" ng-bind="item.text1">Some text</div>
+                <div class="col text-left" data-comp-id="column.2" style="max-width: 45%;">
+                    <div data-comp-id="text.2" ng-bind="item.text1" style="font-size: 12px;">Some text</div>
                 </div>
-                <div class="col" data-comp-id="column.3">
-                    <div data-comp-id="text.3" ng-bind="item.text3">Some text</div>
+                <div class="col text-center" data-comp-id="column.3" style="max-width: 10%;">
+                    <div data-comp-id="text.3" ng-bind="item.text3" style="font-size: 10px;">Some text</div>
                 </div>
-                <div class="col" data-comp-id="column.4" style="max-width: 45%;">
+                <div class="col text-right" data-comp-id="column.4" style="max-width: 45%;">
                     <div data-comp-id="text.4" ng-bind="item.text4">Some text</div>
                 </div>
             </div>
