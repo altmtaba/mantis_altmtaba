@@ -40,7 +40,7 @@
           "text3": {
             "type": "string",
             "selector": "td",
-            "control": "action.link",
+            "control": "property.innerText",
             "selectIndex": 7
           }
         }
