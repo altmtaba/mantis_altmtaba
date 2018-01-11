@@ -10,8 +10,8 @@
       "sourceScreenId": "app.blank"
     },
     {
-      "id": "menu",
-      "name": "menu",
+      "id": "menu2",
+      "name": "menu2",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.menu"
     },
