@@ -35,6 +35,12 @@
             "selector": "td",
             "control": "property.innerText",
             "selectIndex": 9
+          },
+          "icon": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerHTML",
+            "selectIndex": 2
           }
         }
       },
