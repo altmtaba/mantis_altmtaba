@@ -118,7 +118,7 @@
     "gotohome": {
       "type": "string",
       "selector": "td.menu a[href=\"/mantisbt/view_all_bug_page.php\"]",
-      "control": "property.innerHTML"
+      "control": "action.link"
     },
     "isissuedetails": {
       "type": "identifier",
