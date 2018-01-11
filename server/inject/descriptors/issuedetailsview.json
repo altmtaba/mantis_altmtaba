@@ -19,10 +19,16 @@
       "control": "property.innerText"
     },
     "dateSubmitted": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-1 td",
+      "selectIndex": 4,
+      "control": "property.innerText"
     },
     "lastUpdated": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-1 td",
+      "selectIndex": 5,
+      "control": "property.innerText"
     },
     "reporter": {
       "type": "string"
@@ -40,7 +46,9 @@
       "type": "string"
     },
     "status": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-1 td",
+      "selectIndex": 3
     },
     "resolution": {
       "type": "string"
