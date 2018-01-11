@@ -13,7 +13,8 @@
       "id": "menu",
       "name": "menu",
       "sourceAppId": "_blank",
-      "sourceScreenId": "app.menu"
+      "sourceScreenId": "app.menu",
+      "model": "menu"
     },
     {
       "id": "multiselect",
@@ -48,6 +49,12 @@
       "sourceScreenId": "app.home",
       "sourceAppId": "MantisClassic",
       "model": "home"
+    },
+    {
+      "id": "menu",
+      "name": "menu",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
