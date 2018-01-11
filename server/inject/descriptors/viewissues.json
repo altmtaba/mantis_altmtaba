@@ -16,7 +16,7 @@
             "control": "property.innerHTML"
           },
           "action": {
-            "type": "string",
+            "type": "action",
             "control": "property.innerHTML"
           },
           "icon": {
@@ -39,7 +39,7 @@
           "text3": {
             "type": "string",
             "selector": "td a",
-            "control": "property.innerHTML",
+            "control": "action.link",
             "selectIndex": 1
           }
         }
