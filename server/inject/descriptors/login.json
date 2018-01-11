@@ -23,8 +23,7 @@
           "submit"
         ]
       },
-      "selector": "input",
-      "selectIndex": 1,
+      "selector": "input[type=\"password\"]",
       "control": "text"
     },
     "errorMessage": {
