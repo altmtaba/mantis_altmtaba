@@ -31,7 +31,7 @@
             "selectIndex": 7
           },
           "text4": {
-            "type": "action",
+            "type": "string",
             "selector": "td",
             "control": "action.link",
             "selectIndex": 9
