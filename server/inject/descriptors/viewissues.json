@@ -53,7 +53,7 @@
     "isViewIssues": {
       "type": "string",
       "selector": "#buglist td.form-title span.floatleft",
-      "control": "property.innerHTML",
+      "control": "exists",
       "selectContains": "Viewing Issues"
     }
   },
