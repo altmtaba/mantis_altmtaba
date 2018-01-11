@@ -2,5 +2,6 @@
   "login.json",
   "myView.json",
   "issuedetailsview.json",
-  "viewissues.json"
+  "viewissues.json",
+  "menu.json"
 ]
