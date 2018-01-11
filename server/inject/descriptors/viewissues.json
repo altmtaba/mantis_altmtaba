@@ -17,7 +17,8 @@
           },
           "action": {
             "type": "action",
-            "control": "property.innerHTML"
+            "control": "property.innerHTML",
+            "selector": "td a"
           },
           "icon": {
             "type": "string",
