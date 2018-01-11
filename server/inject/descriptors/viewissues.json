@@ -16,7 +16,7 @@
             "control": "property.innerHTML"
           },
           "action": {
-            "type": "action",
+            "type": "string",
             "control": "property.innerHTML",
             "selector": "td a"
           },
