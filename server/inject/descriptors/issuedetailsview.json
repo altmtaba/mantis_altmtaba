@@ -7,7 +7,10 @@
       "control": "property.innerText"
     },
     "project": {
-      "type": "string"
+      "type": "string",
+      "selector": "tr.row-1 td",
+      "selectIndex": 1,
+      "control": "property.innerText"
     },
     "category": {
       "type": "string"
