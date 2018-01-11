@@ -7,14 +7,6 @@
       "items": {
         "type": "object",
         "properties": {
-          "string": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            },
-            "selector": "td",
-            "control": "property.innerHTML"
-          },
           "action": {
             "type": "action",
             "control": "action.link",
