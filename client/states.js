@@ -69,12 +69,12 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.menu', {
+    }).state('app.menu3', {
         views: {
             app: {
-                controller: 'app_menu',
+                controller: 'app_menu3',
                 templateProvider: function (app) {
-                    return app.templateProvider('app.menu');
+                    return app.templateProvider('app.menu3');
                 }
             }
         }

@@ -51,8 +51,8 @@
       "model": "loop"
     },
     {
-      "id": "menu",
-      "name": "menu",
+      "id": "menu3",
+      "name": "menu3",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank"
     }
