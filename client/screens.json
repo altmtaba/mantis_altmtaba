@@ -44,8 +44,8 @@
       "model": "home"
     },
     {
-      "id": "menu3",
-      "name": "menu3",
+      "id": "menu",
+      "name": "menu",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "description": "Menu control",
