@@ -60,15 +60,6 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.loop', {
-        views: {
-            app: {
-                controller: 'app_loop',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.loop');
-                }
-            }
-        }
     }).state('app.menu', {
         views: {
             app: {

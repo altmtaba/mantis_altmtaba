@@ -44,13 +44,6 @@
       "model": "home"
     },
     {
-      "id": "loop",
-      "name": "loop",
-      "sourceScreenId": "app.postsnews.postscool",
-      "sourceAppId": "universaltemplates",
-      "model": "loop"
-    },
-    {
       "id": "menu",
       "name": "menu",
       "sourceScreenId": "app.menu",
