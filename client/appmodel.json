@@ -262,9 +262,9 @@
       }
     }
   },
-  "menu": {
+  "menu_model": {
     "type": "object",
-    "comment": "menu",
+    "comment": "",
     "properties": {}
   }
 }
