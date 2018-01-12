@@ -78,5 +78,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.infinitescroll', {
+        views: {
+            app: {
+                controller: 'app_infinitescroll',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.infinitescroll');
+                }
+            }
+        }
     });
 });
