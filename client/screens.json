@@ -44,12 +44,11 @@
       "model": "home"
     },
     {
-      "id": "menu",
-      "name": "menu",
+      "id": "menu3",
+      "name": "menu3",
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "description": "Menu control",
-      "modal": true,
       "model": "menu"
     },
     {
