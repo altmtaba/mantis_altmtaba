@@ -60,21 +60,21 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.menu', {
-        views: {
-            app: {
-                controller: 'app_menu',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.menu');
-                }
-            }
-        }
     }).state('app.loop', {
         views: {
             app: {
                 controller: 'app_loop',
                 templateProvider: function (app) {
                     return app.templateProvider('app.loop');
+                }
+            }
+        }
+    }).state('app.menu', {
+        views: {
+            app: {
+                controller: 'app_menu',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.menu');
                 }
             }
         }

@@ -44,19 +44,17 @@
       "model": "home"
     },
     {
-      "id": "menu",
-      "name": "menu",
-      "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank",
-      "description": "Menu control",
-      "model": "menu"
-    },
-    {
       "id": "loop",
       "name": "loop",
       "sourceScreenId": "app.postsnews.postscool",
       "sourceAppId": "universaltemplates",
       "model": "loop"
+    },
+    {
+      "id": "menu",
+      "name": "menu",
+      "sourceScreenId": "app.blank",
+      "sourceAppId": "_blank"
     }
   ],
   "sourceAppId": "_blank",
