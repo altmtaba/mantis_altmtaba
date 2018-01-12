@@ -49,7 +49,8 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "description": "Menu control",
-      "modal": true
+      "modal": true,
+      "model": "menu"
     },
     {
       "id": "loop",
