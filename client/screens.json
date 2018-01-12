@@ -55,12 +55,6 @@
       "name": "menu",
       "sourceScreenId": "app.menu",
       "sourceAppId": "_blank"
-    },
-    {
-      "id": "howto",
-      "name": "HowTo",
-      "sourceScreenId": "app.howto",
-      "sourceAppId": "InfiniteScroll"
     }
   ],
   "sourceAppId": "_blank",

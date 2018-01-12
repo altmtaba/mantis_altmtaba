@@ -78,14 +78,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.howto', {
-        views: {
-            app: {
-                controller: 'app_howto',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.howto');
-                }
-            }
-        }
     });
 });
