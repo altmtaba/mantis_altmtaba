@@ -55,13 +55,6 @@
       "name": "menu",
       "sourceScreenId": "app.menu",
       "sourceAppId": "_blank"
-    },
-    {
-      "id": "postscool",
-      "name": "Posts-Cool",
-      "sourceScreenId": "app.postsnews.postscool",
-      "sourceAppId": "universaltemplates",
-      "model": "postscool"
     }
   ],
   "sourceAppId": "_blank",

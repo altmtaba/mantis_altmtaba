@@ -78,14 +78,5 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
-    }).state('app.postscool', {
-        views: {
-            app: {
-                controller: 'app_postscool',
-                templateProvider: function (app) {
-                    return app.templateProvider('app.postscool');
-                }
-            }
-        }
     });
 });
