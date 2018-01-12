@@ -55,13 +55,6 @@
       "name": "menu",
       "sourceScreenId": "app.menu",
       "sourceAppId": "_blank"
-    },
-    {
-      "id": "infinitescroll",
-      "name": "InfiniteScroll",
-      "sourceScreenId": "app.infinitescroll",
-      "sourceAppId": "InfiniteScroll",
-      "model": "infinitescroll"
     }
   ],
   "sourceAppId": "_blank",
