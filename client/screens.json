@@ -49,6 +49,13 @@
       "sourceScreenId": "app.blank",
       "sourceAppId": "_blank",
       "description": "Menu control"
+    },
+    {
+      "id": "loop",
+      "name": "loop",
+      "sourceScreenId": "app.postsnews.postscool",
+      "sourceAppId": "universaltemplates",
+      "model": "loop"
     }
   ],
   "sourceAppId": "_blank",
